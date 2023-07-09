@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    
+}
+
+body{
+    height: 100vh;
+}
+
+i {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    position: fixed;
+    z-index: 1;
+}
+
+i:nth-child(2)
+{
+    display: none;
+}
+
+aside{
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    box-shadow: 0 0 15px 2px black;
+    background-color: rgb(233, 233, 233);
+}
+
+aside .aside_menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+aside .aside_menu a{
+    margin: 20px 10px;
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+
+aside .aside_menu a:hover{
+    color: crimson;
+    transition: 0.5s;
+}
